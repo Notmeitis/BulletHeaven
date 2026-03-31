@@ -18,7 +18,7 @@ height = 50.0
 metadata/_custom_type_script = "uid://baekng1xbagnp"
 
 [node name="ZoneSpawner2" type="Node2D" parent="." unique_id=1608752374]
-position = Vector2(-249, -2)
+position = Vector2(-527, -1)
 script = ExtResource("3_odgqq")
 width = 50.0
 height = 100.0

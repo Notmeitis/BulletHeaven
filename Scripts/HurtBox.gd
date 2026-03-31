@@ -13,6 +13,7 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_area_entered(hit: Area2D) -> void:
-	if (hit is HitBox and health_component):
+	if (hit is HitBox and health_component and hit.is_in_group("Player")):
 		health_component.take_damage(hit.damage)
+		get_parent().queue_free()
 	pass
